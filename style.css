@@ -1,0 +1,82 @@
+/* Basic styling for the resume */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h2, h3 {
+    color: #007bff;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #007bff;
+    margin: 1.5rem 0;
+}
+
+img {
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 1.5rem;
+}
+
+ul li strong {
+    display: block;
+    font-size: 1.1rem;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.list-inline-item {
+    margin-right: 1rem;
+}
+
+/* Style for Call to Action section */
+.text-center {
+    margin-top: 2rem;
+}
+
+.text-center h3 {
+    margin-bottom: 1rem;
+}
+
+.text-center .btn-primary {
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .col-md-4,
+    .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
